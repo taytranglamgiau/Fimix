@@ -1,0 +1,419 @@
+groups:
+  - group_name: Profile
+    color_class: group-a
+    fields:
+      - field_name: username
+        display_name: name
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: MemeFi
+    type: memefi
+    color_class: group-a
+    fields:
+      - field_name: memeFiCoin
+        display_name: Coin
+      - field_name: memeFiBossHP
+        display_name: Boss HP
+      - field_name: lastClaimMemeFi
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: Hamster Kombat
+    type: hamster
+    color_class: group-b
+    fields:
+      - field_name: hamsterKombatCoin
+        display_name: Coin
+      - field_name: hamsterKombatBossHP
+        display_name: Boss HP
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: YesCoin
+    type: yescoin
+    color_class: group-a
+    fields:
+      - field_name: yesCoinAmount
+        display_name: Amount
+      - field_name: yescoinWalletAddress
+        display_name: Wallet Address
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: TapSwap
+    type: tapswap
+    color_class: group-b
+    fields:
+      - field_name: tapSwapUserInfo.player.shares
+        display_name: Balance
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: Cex.IO
+    type: cex
+    color_class: group-b
+    fields:
+      - field_name: cexUserInfoRes.balance
+        display_name: Balance
+      - field_name: lastClaimCex
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: Blum
+    type: blum
+    color_class: group-b
+    fields:
+      - field_name: blumBalance
+        display_name: Balance
+      - field_name: lastClaimBlum
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: Spell
+    type: spell
+    color_class: group-b
+    fields:
+      - field_name: spellWalletBalance
+        display_name: Balance
+      - field_name: lastClaimSpell
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: TimeFarm
+    type: timefarm
+    color_class: group-b
+    fields:
+      - field_name: timeFarmInfo.balance
+        display_name: Balance
+      - field_name: lastClaimTimeFarm
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: Egg
+    type: egg
+    color_class: group-b
+    fields:
+      - field_name: eggUserInfo.user.coins
+        display_name: Balance
+      - field_name: lastClaimEgg
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: Grand
+    type: grand
+    color_class: group-b
+    fields:
+      - field_name: grandBalance
+        display_name: Balance
+      - field_name: lastCheckGrand
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: Quack
+    type: quack
+    color_class: group-b
+    fields:
+      - field_name: quackBalanceInfo
+        display_name: Balance
+      - field_name: lastClaimQuack
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: HSK
+    type: hsk
+    color_class: group-b
+    fields:
+      - field_name: hskInfo.data.goldAmount
+        display_name: Balance
+      - field_name: lastClaimHsk
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: PixelTap
+    type: pixeltap
+    color_class: group-b
+    fields:
+      - field_name: pixelTapUser.clicksCount
+        display_name: Balance
+      - field_name: lastClaimPixelTap
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: GemZ
+    type: gemz
+    color_class: group-b
+    fields:
+      - field_name: gemzTokenResponse.state.balance
+        display_name: Balance
+      # - field_name: lastClaimGemz
+      #   display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: MatchChain
+    type: match
+    color_class: group-b
+    fields:
+      - field_name: matchChainProfileInfo.Balance
+        display_name: Balance
+      - field_name: lastClaimMatchChain
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: Dogs
+    type: dogs
+    color_class: group-b
+    fields:
+      - field_name: dogsInfo.age
+        display_name: Balance
+      - field_name: dogsWalletConnect
+        display_name: Wallet Address
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: Cats
+    type: cats
+    color_class: group-b
+    fields:
+      - field_name: catsInfo.totalRewards
+        display_name: Balance
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: Locago
+    type: locago
+    color_class: group-b
+    fields:
+      - field_name: locagoUserInfo.totalRewards
+        display_name: Balance
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: Buffalo
+    type: buffalo
+    color_class: group-b
+    fields:
+      - field_name: buffaloUserInfo.data.points
+        display_name: Balance
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: PokeQuest
+    type: poke
+    color_class: group-b
+    fields:
+      - field_name: pokeQuestTapResponse.data.balance_coins
+        display_name: Balance
+      - field_name: pokeQuestFarmInfo.data.earn_per_hour
+        display_name: Earn Per Hour
+      - field_name: lastClaimPokeQuest
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: Banana
+    type: banana
+    color_class: group-b
+    fields:
+      - field_name: bananaUserInfo.data.peel
+        display_name: Balance
+      - field_name: lastClaimBanana
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: GMAI
+    type: gmai
+    color_class: group-b
+    fields:
+      - field_name: gmAiBalanceResponse.data.total_point
+        display_name: Balance
+      - field_name: lastClaimGmAi
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: OKXRacer
+    type: okx
+    color_class: group-b
+    fields:
+      - field_name: okxRacerUserInfo.data.balancePoints
+        display_name: Balance
+      - field_name: lastClaimOkxRacer
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: CroosFI
+    type: crossfi
+    color_class: group-b
+    fields:
+      - field_name: crossfiProfileInfo.mpx
+        display_name: Balance
+      - field_name: lastClaimCrossfi
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
