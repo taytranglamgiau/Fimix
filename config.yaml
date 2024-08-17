@@ -367,23 +367,6 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
-  - group_name: GMAI
-    type: gmai
-    color_class: group-b
-    fields:
-      - field_name: gmAiBalanceResponse.data.total_point
-        display_name: Balance
-      - field_name: lastClaimGmAi
-        display_name: Last Claim
-    actions:
-      mongo:
-        - name: "Start Missing Profiles on DB"
-      gpm:
-        - name: "Start All Profiles on GPM"
-      wallet:
-        - name: "Connect Wallet"
-      failed_only:
-        - name: "Start Ref for Failed Profiles Only"
   - group_name: OKXRacer
     type: okx
     color_class: group-b
