@@ -14,6 +14,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: ""
   - group_name: MemeFi
     type: memefi
     color_class: group-a
@@ -33,6 +35,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "memeFiLink"
   - group_name: Hamster Kombat
     type: hamster
     color_class: group-b
@@ -50,6 +54,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "hamsterKombatLink"
   - group_name: YesCoin
     type: yescoin
     color_class: group-a
@@ -67,6 +73,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "yescoinLink"
   - group_name: TapSwap
     type: tapswap
     color_class: group-b
@@ -82,6 +90,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "tapSwapLink"
   - group_name: Cex.IO
     type: cex
     color_class: group-b
@@ -99,6 +109,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "cexLink"
   - group_name: Blum
     type: blum
     color_class: group-b
@@ -116,6 +128,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "blumLink"
   - group_name: Spell
     type: spell
     color_class: group-b
@@ -133,6 +147,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "spellLink"
   - group_name: TimeFarm
     type: timefarm
     color_class: group-b
@@ -150,6 +166,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "timeFarmLink"
   - group_name: Egg
     type: egg
     color_class: group-b
@@ -167,6 +185,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "eggLink"
   - group_name: Grand
     type: grand
     color_class: group-b
@@ -184,6 +204,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "grandLink"
   - group_name: Quack
     type: quack
     color_class: group-b
@@ -201,6 +223,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "quackLink"
   - group_name: HSK
     type: hsk
     color_class: group-b
@@ -218,6 +242,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "hskLink"
   - group_name: PixelTap
     type: pixeltap
     color_class: group-b
@@ -235,6 +261,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "pixelTapLink"
   - group_name: GemZ
     type: gemz
     color_class: group-b
@@ -252,6 +280,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "gemzLink"
   - group_name: MatchChain
     type: match
     color_class: group-b
@@ -269,6 +299,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "matchChainLink"
   - group_name: Dogs
     type: dogs
     color_class: group-b
@@ -286,6 +318,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "dogsLink"
   - group_name: Cats
     type: cats
     color_class: group-b
@@ -301,6 +335,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "catsLink"
   - group_name: Locago
     type: locago
     color_class: group-b
@@ -316,6 +352,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "locagoLink"
   - group_name: Buffalo
     type: buffalo
     color_class: group-b
@@ -331,6 +369,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "buffaloLink"
   - group_name: PokeQuest
     type: poke
     color_class: group-b
@@ -350,6 +390,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "pokeQuestLink"
   - group_name: Banana
     type: banana
     color_class: group-b
@@ -367,6 +409,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "bananaLink"
   - group_name: OKXRacer
     type: okx
     color_class: group-b
@@ -384,6 +428,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "okxRacerLink"
   - group_name: CroosFI
     type: crossfi
     color_class: group-b
@@ -401,6 +447,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "crossfiLink"
   - group_name: Lost Dogs
     type: ldogs
     color_class: group-b
@@ -418,6 +466,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "lostDogsLink"
   - group_name: Hopium
     type: hopium
     color_class: group-b
@@ -433,6 +483,8 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "hopiumLink"
   - group_name: Neko
     type: neko
     color_class: group-b
@@ -448,3 +500,5 @@ groups:
         - name: "Connect Wallet"
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "nekotonLink"
