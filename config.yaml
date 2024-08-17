@@ -1,5 +1,6 @@
 groups:
   - group_name: Profile
+    type: profile
     color_class: group-a
     fields:
       - field_name: username
@@ -408,6 +409,53 @@ groups:
         display_name: Balance
       - field_name: lastClaimCrossfi
         display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: Lost Dogs
+    type: ldogs
+    color_class: group-b
+    fields:
+      - field_name: lostDogsUserInfo.data.lostDogsWayUserInfo.woofBalance
+        display_name: Balance
+      - field_name: lastClaimLostDogs
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: Hopium
+    type: hopium
+    color_class: group-b
+    fields:
+      - field_name: hopiumBalanceInfo.balance
+        display_name: Balance
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+  - group_name: Neko
+    type: neko
+    color_class: group-b
+    fields:
+      - field_name: nekotonProfile.data.score
+        display_name: Balance
     actions:
       mongo:
         - name: "Start Missing Profiles on DB"
