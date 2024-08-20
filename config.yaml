@@ -16,6 +16,44 @@ groups:
         - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: ""
+  - group_name: Lost Dogs
+    type: ldogs
+    color_class: group-b
+    fields:
+      - field_name: lostDogsUserInfo.data.lostDogsWayUserInfo.woofBalance
+        display_name: Balance
+      - field_name: lastClaimLostDogs
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "lostDogsLink"
+  - group_name: Hamster Kombat
+    type: hamster
+    color_class: group-b
+    fields:
+      - field_name: hamsterKombatCoin
+        display_name: Coin
+      - field_name: hamsterKombatBossHP
+        display_name: Boss HP
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "hamsterKombatLink"
   - group_name: MemeFi
     type: memefi
     color_class: group-a
@@ -37,14 +75,14 @@ groups:
         - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "memeFiLink"
-  - group_name: Hamster Kombat
-    type: hamster
+  - group_name: OKXRacer
+    type: okx
     color_class: group-b
     fields:
-      - field_name: hamsterKombatCoin
-        display_name: Coin
-      - field_name: hamsterKombatBossHP
-        display_name: Boss HP
+      - field_name: okxRacerUserInfo.data.balancePoints
+        display_name: Balance
+      - field_name: lastClaimOkxRacer
+        display_name: Last Claim
     actions:
       mongo:
         - name: "Start Missing Profiles on DB"
@@ -55,7 +93,115 @@ groups:
       failed_only:
         - name: "Start Ref for Failed Profiles Only"
     open:
-      link_field: "hamsterKombatLink"
+      link_field: "okxRacerLink"
+  - group_name: Cex.IO
+    type: cex
+    color_class: group-b
+    fields:
+      - field_name: cexUserInfoRes.balance
+        display_name: Balance
+      - field_name: lastClaimCex
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "cexLink"
+  - group_name: TimeFarm
+    type: timefarm
+    color_class: group-b
+    fields:
+      - field_name: timeFarmInfo.balance
+        display_name: Balance
+      - field_name: lastClaimTimeFarm
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "timeFarmLink"
+  - group_name: Cats
+    type: cats
+    color_class: group-b
+    fields:
+      - field_name: catsInfo.totalRewards
+        display_name: Balance
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "catsLink"
+  - group_name: Blum
+    type: blum
+    color_class: group-b
+    fields:
+      - field_name: blumBalance
+        display_name: Balance
+      - field_name: lastClaimBlum
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "blumLink"
+  - group_name: Hopium
+    type: hopium
+    color_class: group-b
+    fields:
+      - field_name: hopiumBalanceInfo.balance
+        display_name: Balance
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "hopiumLink"
+  - group_name: Neko
+    type: neko
+    color_class: group-b
+    fields:
+      - field_name: nekotonProfile.data.score
+        display_name: Balance
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "nekotonLink"
   - group_name: YesCoin
     type: yescoin
     color_class: group-a
@@ -92,44 +238,6 @@ groups:
         - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "tapSwapLink"
-  - group_name: Cex.IO
-    type: cex
-    color_class: group-b
-    fields:
-      - field_name: cexUserInfoRes.balance
-        display_name: Balance
-      - field_name: lastClaimCex
-        display_name: Last Claim
-    actions:
-      mongo:
-        - name: "Start Missing Profiles on DB"
-      gpm:
-        - name: "Start All Profiles on GPM"
-      wallet:
-        - name: "Connect Wallet"
-      failed_only:
-        - name: "Start Ref for Failed Profiles Only"
-    open:
-      link_field: "cexLink"
-  - group_name: Blum
-    type: blum
-    color_class: group-b
-    fields:
-      - field_name: blumBalance
-        display_name: Balance
-      - field_name: lastClaimBlum
-        display_name: Last Claim
-    actions:
-      mongo:
-        - name: "Start Missing Profiles on DB"
-      gpm:
-        - name: "Start All Profiles on GPM"
-      wallet:
-        - name: "Connect Wallet"
-      failed_only:
-        - name: "Start Ref for Failed Profiles Only"
-    open:
-      link_field: "blumLink"
   - group_name: Spell
     type: spell
     color_class: group-b
@@ -149,25 +257,6 @@ groups:
         - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "spellLink"
-  - group_name: TimeFarm
-    type: timefarm
-    color_class: group-b
-    fields:
-      - field_name: timeFarmInfo.balance
-        display_name: Balance
-      - field_name: lastClaimTimeFarm
-        display_name: Last Claim
-    actions:
-      mongo:
-        - name: "Start Missing Profiles on DB"
-      gpm:
-        - name: "Start All Profiles on GPM"
-      wallet:
-        - name: "Connect Wallet"
-      failed_only:
-        - name: "Start Ref for Failed Profiles Only"
-    open:
-      link_field: "timeFarmLink"
   - group_name: Egg
     type: egg
     color_class: group-b
@@ -301,42 +390,6 @@ groups:
         - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "matchChainLink"
-  - group_name: Dogs
-    type: dogs
-    color_class: group-b
-    fields:
-      - field_name: dogsInfo.age
-        display_name: Balance
-      - field_name: dogsWalletConnect
-        display_name: Wallet Address
-    actions:
-      mongo:
-        - name: "Start Missing Profiles on DB"
-      gpm:
-        - name: "Start All Profiles on GPM"
-      wallet:
-        - name: "Connect Wallet"
-      failed_only:
-        - name: "Start Ref for Failed Profiles Only"
-    open:
-      link_field: "dogsLink"
-  - group_name: Cats
-    type: cats
-    color_class: group-b
-    fields:
-      - field_name: catsInfo.totalRewards
-        display_name: Balance
-    actions:
-      mongo:
-        - name: "Start Missing Profiles on DB"
-      gpm:
-        - name: "Start All Profiles on GPM"
-      wallet:
-        - name: "Connect Wallet"
-      failed_only:
-        - name: "Start Ref for Failed Profiles Only"
-    open:
-      link_field: "catsLink"
   - group_name: Locago
     type: locago
     color_class: group-b
@@ -411,25 +464,6 @@ groups:
         - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "bananaLink"
-  - group_name: OKXRacer
-    type: okx
-    color_class: group-b
-    fields:
-      - field_name: okxRacerUserInfo.data.balancePoints
-        display_name: Balance
-      - field_name: lastClaimOkxRacer
-        display_name: Last Claim
-    actions:
-      mongo:
-        - name: "Start Missing Profiles on DB"
-      gpm:
-        - name: "Start All Profiles on GPM"
-      wallet:
-        - name: "Connect Wallet"
-      failed_only:
-        - name: "Start Ref for Failed Profiles Only"
-    open:
-      link_field: "okxRacerLink"
   - group_name: CroosFI
     type: crossfi
     color_class: group-b
@@ -449,56 +483,3 @@ groups:
         - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "crossfiLink"
-  - group_name: Lost Dogs
-    type: ldogs
-    color_class: group-b
-    fields:
-      - field_name: lostDogsUserInfo.data.lostDogsWayUserInfo.woofBalance
-        display_name: Balance
-      - field_name: lastClaimLostDogs
-        display_name: Last Claim
-    actions:
-      mongo:
-        - name: "Start Missing Profiles on DB"
-      gpm:
-        - name: "Start All Profiles on GPM"
-      wallet:
-        - name: "Connect Wallet"
-      failed_only:
-        - name: "Start Ref for Failed Profiles Only"
-    open:
-      link_field: "lostDogsLink"
-  - group_name: Hopium
-    type: hopium
-    color_class: group-b
-    fields:
-      - field_name: hopiumBalanceInfo.balance
-        display_name: Balance
-    actions:
-      mongo:
-        - name: "Start Missing Profiles on DB"
-      gpm:
-        - name: "Start All Profiles on GPM"
-      wallet:
-        - name: "Connect Wallet"
-      failed_only:
-        - name: "Start Ref for Failed Profiles Only"
-    open:
-      link_field: "hopiumLink"
-  - group_name: Neko
-    type: neko
-    color_class: group-b
-    fields:
-      - field_name: nekotonProfile.data.score
-        display_name: Balance
-    actions:
-      mongo:
-        - name: "Start Missing Profiles on DB"
-      gpm:
-        - name: "Start All Profiles on GPM"
-      wallet:
-        - name: "Connect Wallet"
-      failed_only:
-        - name: "Start Ref for Failed Profiles Only"
-    open:
-      link_field: "nekotonLink"
