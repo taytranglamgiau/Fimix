@@ -16,6 +16,23 @@ groups:
         - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: ""
+  - group_name: Dogs
+    type: dogs
+    color_class: group-b
+    fields:
+      - field_name: dogsWalletConnect
+        display_name: Wallet Address
+    actions:
+      mongo:
+        - name: "Start Missing Profiles on DB"
+      gpm:
+        - name: "Start All Profiles on GPM"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "dogsLink"
   - group_name: Lost Dogs
     type: ldogs
     color_class: group-b
