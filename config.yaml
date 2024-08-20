@@ -7,13 +7,13 @@ groups:
         display_name: name
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: ""
   - group_name: Dogs
@@ -24,13 +24,13 @@ groups:
         display_name: Wallet Address
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "dogsLink"
   - group_name: Lost Dogs
@@ -43,13 +43,13 @@ groups:
         display_name: Last Claim
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "lostDogsLink"
   - group_name: Hamster Kombat
@@ -62,13 +62,13 @@ groups:
         display_name: Boss HP
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "hamsterKombatLink"
   - group_name: MemeFi
@@ -83,13 +83,13 @@ groups:
         display_name: Last Claim
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "memeFiLink"
   - group_name: OKXRacer
@@ -102,13 +102,13 @@ groups:
         display_name: Last Claim
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "okxRacerLink"
   - group_name: Cex.IO
@@ -121,13 +121,13 @@ groups:
         display_name: Last Claim
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "cexLink"
   - group_name: TimeFarm
@@ -140,13 +140,13 @@ groups:
         display_name: Last Claim
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "timeFarmLink"
   - group_name: Cats
@@ -157,13 +157,13 @@ groups:
         display_name: Balance
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "catsLink"
   - group_name: Blum
@@ -176,13 +176,13 @@ groups:
         display_name: Last Claim
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "blumLink"
   - group_name: Hopium
@@ -193,13 +193,13 @@ groups:
         display_name: Balance
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "hopiumLink"
   - group_name: Neko
@@ -210,13 +210,13 @@ groups:
         display_name: Balance
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "nekotonLink"
   - group_name: YesCoin
@@ -229,13 +229,13 @@ groups:
         display_name: Wallet Address
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "yescoinLink"
   - group_name: TapSwap
@@ -246,13 +246,13 @@ groups:
         display_name: Balance
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "tapSwapLink"
   - group_name: Spell
@@ -265,13 +265,13 @@ groups:
         display_name: Last Claim
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "spellLink"
   - group_name: Egg
@@ -284,13 +284,13 @@ groups:
         display_name: Last Claim
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "eggLink"
   - group_name: Grand
@@ -303,13 +303,13 @@ groups:
         display_name: Last Claim
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "grandLink"
   - group_name: Quack
@@ -322,13 +322,13 @@ groups:
         display_name: Last Claim
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "quackLink"
   - group_name: HSK
@@ -341,13 +341,13 @@ groups:
         display_name: Last Claim
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "hskLink"
   - group_name: PixelTap
@@ -360,13 +360,13 @@ groups:
         display_name: Last Claim
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "pixelTapLink"
   - group_name: GemZ
@@ -379,13 +379,13 @@ groups:
       #   display_name: Last Claim
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "gemzLink"
   - group_name: MatchChain
@@ -398,13 +398,13 @@ groups:
         display_name: Last Claim
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "matchChainLink"
   - group_name: Locago
@@ -415,13 +415,13 @@ groups:
         display_name: Balance
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "locagoLink"
   - group_name: Buffalo
@@ -432,13 +432,13 @@ groups:
         display_name: Balance
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "buffaloLink"
   - group_name: PokeQuest
@@ -453,13 +453,13 @@ groups:
         display_name: Last Claim
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "pokeQuestLink"
   - group_name: Banana
@@ -472,13 +472,13 @@ groups:
         display_name: Last Claim
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "bananaLink"
   - group_name: CroosFI
@@ -491,12 +491,12 @@ groups:
         display_name: Last Claim
     actions:
       mongo:
-        - name: "Start Missing Profiles on DB"
+        - name: "Start Missing"
       gpm:
         - name: "Start All"
       wallet:
         - name: "Connect Wallet"
       failed_only:
-        - name: "Start Missing"
+        - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "crossfiLink"
