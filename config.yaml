@@ -20,6 +20,8 @@ groups:
     type: dogs
     color_class: group-b
     fields:
+      - field_name: dogsInfo.total
+        display_name: Balance
       - field_name: dogsWalletConnect
         display_name: Wallet Address
     actions:
@@ -411,8 +413,8 @@ groups:
     type: locago
     color_class: group-b
     fields:
-      - field_name: locagoUserInfo.totalRewards
-        display_name: Balance
+      - field_name: locagoUserInfo.expires
+        display_name: Token Expire
     actions:
       mongo:
         - name: "Start Missing"
