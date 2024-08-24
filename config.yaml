@@ -35,6 +35,23 @@ groups:
         - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "dogsLink"
+  - group_name: Musk
+    type: musk
+    color_class: group-b
+    fields:
+      - field_name: muskEmpireInfoResponse.data.hero.money
+        display_name: Balance
+    actions:
+      mongo:
+        - name: "Start Missing"
+      gpm:
+        - name: "Start All"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "muskEmpireLink"
   - group_name: Lost Dogs
     type: ldogs
     color_class: group-b
