@@ -16,7 +16,9 @@ groups:
         - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: ""
+    sample_ref: ""
   - group_name: Dogs
+    sample_ref: "https://t.me/dogshouse_bot/join?startapp=t0dyDn0aRMih4DuFyvxCpA"
     type: dogs
     color_class: group-b
     fields:
@@ -36,6 +38,7 @@ groups:
     open:
       link_field: "dogsLink"
   - group_name: Musk
+    sample_ref: "https://t.me/empirebot/game?startapp=hero209501633"
     type: musk
     color_class: group-b
     fields:
@@ -53,6 +56,7 @@ groups:
     open:
       link_field: "muskEmpireLink"
   - group_name: Lost Dogs
+    sample_ref: "https://t.me/lost_dogs_bot/lodoapp?startapp=ref-u_209501633"
     type: ldogs
     color_class: group-b
     fields:
@@ -72,6 +76,7 @@ groups:
     open:
       link_field: "lostDogsLink"
   - group_name: Hamster Kombat
+    sample_ref: "https://t.me/hamSter_kombat_bot/start?startapp=kentId209501633"
     type: hamster
     color_class: group-b
     fields:
@@ -91,6 +96,7 @@ groups:
     open:
       link_field: "hamsterKombatLink"
   - group_name: MemeFi
+    sample_ref: "https://t.me/memefi_coin_bot?start=r_3c44176335"
     type: memefi
     color_class: group-a
     fields:
@@ -112,6 +118,7 @@ groups:
     open:
       link_field: "memeFiLink"
   - group_name: OKXRacer
+    sample_ref: "https://t.me/OKX_official_bot/OKX_Racer?startapp=linkCode_100262302"
     type: okx
     color_class: group-b
     fields:
@@ -131,6 +138,7 @@ groups:
     open:
       link_field: "okxRacerLink"
   - group_name: Cex.IO
+    sample_ref: "https://t.me/cexio_tap_bot?start=1716474833537081"
     type: cex
     color_class: group-b
     fields:
@@ -150,6 +158,7 @@ groups:
     open:
       link_field: "cexLink"
   - group_name: TimeFarm
+    sample_ref: "https://t.me/TimeFarmCryptoBot?start=RK5dkC8OMd02onQD"
     type: timefarm
     color_class: group-b
     fields:
@@ -169,6 +178,7 @@ groups:
     open:
       link_field: "timeFarmLink"
   - group_name: Cats
+    sample_ref: "https://t.me/catsgang_bot/join?startapp=82LhrwnXrkS5qQ1spvNzj"
     type: cats
     color_class: group-b
     fields:
@@ -186,6 +196,7 @@ groups:
     open:
       link_field: "catsLink"
   - group_name: Blum
+    sample_ref: "https://t.me/BlumCryptoBot/app?startapp=ref_jwqcHYfYXx"
     type: blum
     color_class: group-b
     fields:
@@ -205,6 +216,7 @@ groups:
     open:
       link_field: "blumLink"
   - group_name: Hopium
+    sample_ref: "https://t.me/hopium_official_bot/join?startapp=linkCode_209501633"
     type: hopium
     color_class: group-b
     fields:
@@ -222,6 +234,7 @@ groups:
     open:
       link_field: "hopiumLink"
   - group_name: Neko
+    sample_ref: "https://t.me/nekoton_tap_bot/nekoton_tap/?startapp=209501633"
     type: neko
     color_class: group-b
     fields:
@@ -239,6 +252,7 @@ groups:
     open:
       link_field: "nekotonLink"
   - group_name: YesCoin
+    sample_ref: "https://t.me/theYescoin_bot/Yescoin?startapp=pHhqJV"
     type: yescoin
     color_class: group-a
     fields:
@@ -258,6 +272,7 @@ groups:
     open:
       link_field: "yescoinLink"
   - group_name: TapSwap
+    sample_ref: "https://t.me/tapswap_mirror_bot?start=r_209501633"
     type: tapswap
     color_class: group-b
     fields:
@@ -275,6 +290,7 @@ groups:
     open:
       link_field: "tapSwapLink"
   - group_name: Spell
+    sample_ref: "https://t.me/spell_wallet_bot/wallet?startapp=referral=sei1mv2v03htje44lpm6dszcyyk3ut8u0ju474hcmj"
     type: spell
     color_class: group-b
     fields:
@@ -294,6 +310,7 @@ groups:
     open:
       link_field: "spellLink"
   - group_name: Egg
+    sample_ref: "https://t.me/MappasaurusAppBot/Crackasaurus?startapp=C2BA6A3"
     type: egg
     color_class: group-b
     fields:
@@ -313,6 +330,7 @@ groups:
     open:
       link_field: "eggLink"
   - group_name: Grand
+    sample_ref: "https://t.me/grandjourneybot/airdrop?startapp=ref_03d1Xh"
     type: grand
     color_class: group-b
     fields:
@@ -332,6 +350,7 @@ groups:
     open:
       link_field: "grandLink"
   - group_name: Quack
+    sample_ref: "https://t.me/quackquack_game_bot/myapp?startapp=y5cLiIp8eW"
     type: quack
     color_class: group-b
     fields:
@@ -351,6 +370,7 @@ groups:
     open:
       link_field: "quackLink"
   - group_name: HSK
+    sample_ref: "https://t.me/DejenDogBot?start=5853440a"
     type: hsk
     color_class: group-b
     fields:
@@ -370,6 +390,7 @@ groups:
     open:
       link_field: "hskLink"
   - group_name: PixelTap
+    sample_ref: "https://t.me/pixelversexyzbot?start=209501633"
     type: pixeltap
     color_class: group-b
     fields:
@@ -389,6 +410,7 @@ groups:
     open:
       link_field: "pixelTapLink"
   - group_name: GemZ
+    sample_ref: "https://t.me/gemzcoin_Bot/tap?startapp=EB2wb-UJMvmNg3HL81YO98i"
     type: gemz
     color_class: group-b
     fields:
@@ -408,6 +430,7 @@ groups:
     open:
       link_field: "gemzLink"
   - group_name: MatchChain
+    sample_ref: "https://t.me/MatchQuestBot/start?startapp=d7eb597e2a0916b8b4e33cd9821e8042"
     type: match
     color_class: group-b
     fields:
@@ -427,6 +450,7 @@ groups:
     open:
       link_field: "matchChainLink"
   - group_name: Locago
+    sample_ref: "https://t.me/locagoapp_bot/launch?startapp=GVT9TP"
     type: locago
     color_class: group-b
     fields:
@@ -444,6 +468,7 @@ groups:
     open:
       link_field: "locagoLink"
   - group_name: Buffalo
+    sample_ref: "https://t.me/buffalo_kombat_game_bot?start=47q5b569"
     type: buffalo
     color_class: group-b
     fields:
@@ -461,6 +486,7 @@ groups:
     open:
       link_field: "buffaloLink"
   - group_name: PokeQuest
+    sample_ref: "https://t.me/pokequest_bot/app?startapp=oifEtaho2p"
     type: poke
     color_class: group-b
     fields:
@@ -482,6 +508,7 @@ groups:
     open:
       link_field: "pokeQuestLink"
   - group_name: Banana
+    sample_ref: "https://t.me/OfficialBananaBot/banana?startapp=referral=1EFP76"
     type: banana
     color_class: group-b
     fields:
@@ -501,6 +528,7 @@ groups:
     open:
       link_field: "bananaLink"
   - group_name: CroosFI
+    sample_ref: "https://t.me/xficonsolebot?start=209501633"
     type: crossfi
     color_class: group-b
     fields:
