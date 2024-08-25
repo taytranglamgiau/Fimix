@@ -202,6 +202,12 @@ groups:
     fields:
       - field_name: blumBalance
         display_name: Balance
+      - field_name: blumPlayPasses
+        display_name: Play Passes
+      - field_name: blumRefTime
+        display_name: Ref Time
+      - field_name: blumRefLimit
+        display_name: Ref Limit
       - field_name: lastClaimBlum
         display_name: Last Claim
     actions:
