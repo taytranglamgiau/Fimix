@@ -17,76 +17,6 @@ groups:
     open:
       link_field: ""
     sample_ref: ""
-  - group_name: Dogs
-    sample_ref: "https://t.me/dogshouse_bot/join?startapp=t0dyDn0aRMih4DuFyvxCpA"
-    type: dogs
-    color_class: group-b
-    fields:
-      - field_name: dogsInfo.total
-        display_name: Balance
-      - field_name: dogsWalletConnect
-        display_name: Wallet Address
-    actions:
-      mongo:
-        - name: "Start Missing"
-      gpm:
-        - name: "Start All"
-      wallet:
-        - name: "Connect Wallet"
-      failed_only:
-        - name: "Start Ref for Failed Profiles Only"
-    open:
-      link_field: "dogsLink"
-  - group_name: Fish
-    sample_ref: "https://t.me/fishmeme_bot/game?startapp=SANAKP"
-    type: fish
-    color_class: group-b
-    fields:
-      - field_name: ""
-        display_name: Balance
-    actions:
-      gpm:
-        - name: "Start All"
-    open:
-      link_field: "fishMemeLink"
-  - group_name: Musk
-    sample_ref: "https://t.me/empirebot/game?startapp=hero209501633"
-    type: musk
-    color_class: group-b
-    fields:
-      - field_name: muskEmpireInfoResponse.data.hero.money
-        display_name: Balance
-    actions:
-      mongo:
-        - name: "Start Missing"
-      gpm:
-        - name: "Start All"
-      wallet:
-        - name: "Connect Wallet"
-      failed_only:
-        - name: "Start Ref for Failed Profiles Only"
-    open:
-      link_field: "muskEmpireLink"
-  - group_name: Lost Dogs
-    sample_ref: "https://t.me/lost_dogs_bot/lodoapp?startapp=ref-u_209501633"
-    type: ldogs
-    color_class: group-b
-    fields:
-      - field_name: lostDogsUserInfo.data.lostDogsWayUserInfo.woofBalance
-        display_name: Balance
-      - field_name: lastClaimLostDogs
-        display_name: Last Claim
-    actions:
-      mongo:
-        - name: "Start Missing"
-      gpm:
-        - name: "Start All"
-      wallet:
-        - name: "Connect Wallet"
-      failed_only:
-        - name: "Start Ref for Failed Profiles Only"
-    open:
-      link_field: "lostDogsLink"
   - group_name: Hamster Kombat
     sample_ref: "https://t.me/hamSter_kombat_bot/start?startapp=kentId209501633"
     type: hamster
@@ -129,66 +59,6 @@ groups:
         - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "memeFiLink"
-  - group_name: OKXRacer
-    sample_ref: "https://t.me/OKX_official_bot/OKX_Racer?startapp=linkCode_100262302"
-    type: okx
-    color_class: group-b
-    fields:
-      - field_name: okxRacerUserInfo.data.balancePoints
-        display_name: Balance
-      - field_name: lastClaimOkxRacer
-        display_name: Last Claim
-    actions:
-      mongo:
-        - name: "Start Missing"
-      gpm:
-        - name: "Start All"
-      wallet:
-        - name: "Connect Wallet"
-      failed_only:
-        - name: "Start Ref for Failed Profiles Only"
-    open:
-      link_field: "okxRacerLink"
-  - group_name: Cex.IO
-    sample_ref: "https://t.me/cexio_tap_bot?start=1716474833537081"
-    type: cex
-    color_class: group-b
-    fields:
-      - field_name: cexUserInfoRes.balance
-        display_name: Balance
-      - field_name: lastClaimCex
-        display_name: Last Claim
-    actions:
-      mongo:
-        - name: "Start Missing"
-      gpm:
-        - name: "Start All"
-      wallet:
-        - name: "Connect Wallet"
-      failed_only:
-        - name: "Start Ref for Failed Profiles Only"
-    open:
-      link_field: "cexLink"
-  - group_name: TimeFarm
-    sample_ref: "https://t.me/TimeFarmCryptoBot?start=RK5dkC8OMd02onQD"
-    type: timefarm
-    color_class: group-b
-    fields:
-      - field_name: timeFarmInfo.balance
-        display_name: Balance
-      - field_name: lastClaimTimeFarm
-        display_name: Last Claim
-    actions:
-      mongo:
-        - name: "Start Missing"
-      gpm:
-        - name: "Start All"
-      wallet:
-        - name: "Connect Wallet"
-      failed_only:
-        - name: "Start Ref for Failed Profiles Only"
-    open:
-      link_field: "timeFarmLink"
   - group_name: Cats
     sample_ref: "https://t.me/catsgang_bot/join?startapp=82LhrwnXrkS5qQ1spvNzj"
     type: cats
@@ -233,6 +103,136 @@ groups:
         - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "blumLink"
+  - group_name: TimeFarm
+    sample_ref: "https://t.me/TimeFarmCryptoBot?start=RK5dkC8OMd02onQD"
+    type: timefarm
+    color_class: group-b
+    fields:
+      - field_name: timeFarmInfo.balance
+        display_name: Balance
+      - field_name: lastClaimTimeFarm
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing"
+      gpm:
+        - name: "Start All"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "timeFarmLink"
+  - group_name: MatchChain
+    sample_ref: "https://t.me/MatchQuestBot/start?startapp=d7eb597e2a0916b8b4e33cd9821e8042"
+    type: match
+    color_class: group-b
+    fields:
+      - field_name: matchChainProfileInfo.Balance
+        display_name: Balance
+      - field_name: lastClaimMatchChain
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing"
+      gpm:
+        - name: "Start All"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "matchChainLink"
+  - group_name: Musk
+    sample_ref: "https://t.me/empirebot/game?startapp=hero209501633"
+    type: musk
+    color_class: group-b
+    fields:
+      - field_name: muskEmpireInfoResponse.data.hero.money
+        display_name: Balance
+    actions:
+      mongo:
+        - name: "Start Missing"
+      gpm:
+        - name: "Start All"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "muskEmpireLink"
+  - group_name: Fish
+    sample_ref: "https://t.me/fishmeme_bot/game?startapp=SANAKP"
+    type: fish
+    color_class: group-b
+    fields:
+      - field_name: ""
+        display_name: Balance
+    actions:
+      gpm:
+        - name: "Start All"
+    open:
+      link_field: "fishMemeLink"
+  - group_name: Lost Dogs
+    sample_ref: "https://t.me/lost_dogs_bot/lodoapp?startapp=ref-u_209501633"
+    type: ldogs
+    color_class: group-b
+    fields:
+      - field_name: lostDogsUserInfo.data.lostDogsWayUserInfo.woofBalance
+        display_name: Balance
+      - field_name: lastClaimLostDogs
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing"
+      gpm:
+        - name: "Start All"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "lostDogsLink"
+  - group_name: OKXRacer
+    sample_ref: "https://t.me/OKX_official_bot/OKX_Racer?startapp=linkCode_100262302"
+    type: okx
+    color_class: group-b
+    fields:
+      - field_name: okxRacerUserInfo.data.balancePoints
+        display_name: Balance
+      - field_name: lastClaimOkxRacer
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing"
+      gpm:
+        - name: "Start All"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "okxRacerLink"
+  - group_name: Cex.IO
+    sample_ref: "https://t.me/cexio_tap_bot?start=1716474833537081"
+    type: cex
+    color_class: group-b
+    fields:
+      - field_name: cexUserInfoRes.balance
+        display_name: Balance
+      - field_name: lastClaimCex
+        display_name: Last Claim
+    actions:
+      mongo:
+        - name: "Start Missing"
+      gpm:
+        - name: "Start All"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "cexLink"
   - group_name: Hopium
     sample_ref: "https://t.me/hopium_official_bot/join?startapp=linkCode_209501633"
     type: hopium
@@ -447,26 +447,6 @@ groups:
         - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "gemzLink"
-  - group_name: MatchChain
-    sample_ref: "https://t.me/MatchQuestBot/start?startapp=d7eb597e2a0916b8b4e33cd9821e8042"
-    type: match
-    color_class: group-b
-    fields:
-      - field_name: matchChainProfileInfo.Balance
-        display_name: Balance
-      - field_name: lastClaimMatchChain
-        display_name: Last Claim
-    actions:
-      mongo:
-        - name: "Start Missing"
-      gpm:
-        - name: "Start All"
-      wallet:
-        - name: "Connect Wallet"
-      failed_only:
-        - name: "Start Ref for Failed Profiles Only"
-    open:
-      link_field: "matchChainLink"
   - group_name: Locago
     sample_ref: "https://t.me/locagoapp_bot/launch?startapp=GVT9TP"
     type: locago
@@ -565,3 +545,23 @@ groups:
         - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "crossfiLink"
+  - group_name: Dogs
+    sample_ref: "https://t.me/dogshouse_bot/join?startapp=t0dyDn0aRMih4DuFyvxCpA"
+    type: dogs
+    color_class: group-b
+    fields:
+      - field_name: dogsInfo.total
+        display_name: Balance
+      - field_name: dogsWalletConnect
+        display_name: Wallet Address
+    actions:
+      mongo:
+        - name: "Start Missing"
+      gpm:
+        - name: "Start All"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "dogsLink"
