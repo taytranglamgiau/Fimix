@@ -24,8 +24,8 @@ groups:
     fields:
       - field_name: hamsterKombatCoin
         display_name: Coin
-      - field_name: hamsterKombatBossHP
-        display_name: Boss HP
+      - field_name: lastClaimHamster
+        display_name: Last Claim
     actions:
       mongo:
         - name: "Start Missing"
