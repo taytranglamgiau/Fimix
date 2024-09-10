@@ -161,6 +161,24 @@ groups:
         - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "muskEmpireLink"
+  - group_name: TapSwap
+    sample_ref: "https://t.me/tapswap_mirror_bot?start=r_209501633"
+    type: tapswap
+    color_class: group-b
+    fields:
+      - field_name: tapSwapUserInfo.player.shares
+        display_name: Balance
+    actions:
+      mongo:
+        - name: "Start Missing"
+      gpm:
+        - name: "Start All"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "tapSwapLink"
   - group_name: Fish
     sample_ref: "https://t.me/fishmeme_bot/game?startapp=SANAKP"
     type: fish
@@ -289,24 +307,6 @@ groups:
         - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "yescoinLink"
-  - group_name: TapSwap
-    sample_ref: "https://t.me/tapswap_mirror_bot?start=r_209501633"
-    type: tapswap
-    color_class: group-b
-    fields:
-      - field_name: tapSwapUserInfo.player.shares
-        display_name: Balance
-    actions:
-      mongo:
-        - name: "Start Missing"
-      gpm:
-        - name: "Start All"
-      wallet:
-        - name: "Connect Wallet"
-      failed_only:
-        - name: "Start Ref for Failed Profiles Only"
-    open:
-      link_field: "tapSwapLink"
   - group_name: Spell
     sample_ref: "https://t.me/spell_wallet_bot/wallet?startapp=referral=sei1mv2v03htje44lpm6dszcyyk3ut8u0ju474hcmj"
     type: spell
