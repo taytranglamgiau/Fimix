@@ -545,6 +545,26 @@ groups:
         - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "crossfiLink"
+  - group_name: Tapther
+    sample_ref: "https://t.me/taptether_bot?start=YCUNPGH"
+    type: tether
+    color_class: group-b
+    fields:
+      - field_name: tetherUserInfo.userData.balance
+        display_name: Balance
+      - field_name: Last Claim
+        display_name: Wallet Address
+    actions:
+      mongo:
+        - name: "Start Missing"
+      gpm:
+        - name: "Start All"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "tetherLink"
   - group_name: Dogs
     sample_ref: "https://t.me/dogshouse_bot/join?startapp=t0dyDn0aRMih4DuFyvxCpA"
     type: dogs
