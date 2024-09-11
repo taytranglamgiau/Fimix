@@ -179,6 +179,24 @@ groups:
         - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "tapSwapLink"
+  - group_name: RockyRabbit
+    sample_ref: "https://t.me/rocky_rabbit_bot/play?startapp=frId209501633"
+    type: rocky
+    color_class: group-b
+    fields:
+      - field_name: rockyRabbitUserInfo.clicker.balance
+        display_name: Balance
+    actions:
+      mongo:
+        - name: "Start Missing"
+      gpm:
+        - name: "Start All"
+      wallet:
+        - name: "Connect Wallet"
+      failed_only:
+        - name: "Start Ref for Failed Profiles Only"
+    open:
+      link_field: "rockyRabbitLink"
   - group_name: Fish
     sample_ref: "https://t.me/fishmeme_bot/game?startapp=SANAKP"
     type: fish
