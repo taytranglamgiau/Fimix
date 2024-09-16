@@ -26,6 +26,12 @@ groups:
         display_name: Coin
       - field_name: lastClaimHamster
         display_name: Last Claim
+      - field_name: tonAddress
+        display_name: Ton Wallet Address
+      - field_name: hamsterKombatConnected
+        display_name: Connected
+      - field_name: hamsterKombatWalletAddress
+        display_name: Hamster Kombat Wallet Address
     actions:
       mongo:
         - name: "Start Missing"
