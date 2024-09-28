@@ -26,12 +26,6 @@ groups:
         display_name: Coin
       - field_name: lastClaimHamster
         display_name: Last Claim
-      - field_name: tonAddress
-        display_name: Ton Wallet Address
-      - field_name: hamsterKombatConnected
-        display_name: Connected
-      - field_name: hamsterKombatWalletAddress
-        display_name: Hamster Kombat Wallet Address
     actions:
       mongo:
         - name: "Start Missing"
@@ -149,24 +143,6 @@ groups:
         - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "matchChainLink"
-  - group_name: Musk
-    sample_ref: "https://t.me/empirebot/game?startapp=hero209501633"
-    type: musk
-    color_class: group-b
-    fields:
-      - field_name: muskEmpireInfoResponse.data.hero.money
-        display_name: Balance
-    actions:
-      mongo:
-        - name: "Start Missing"
-      gpm:
-        - name: "Start All"
-      wallet:
-        - name: "Connect Wallet"
-      failed_only:
-        - name: "Start Ref for Failed Profiles Only"
-    open:
-      link_field: "muskEmpireLink"
   - group_name: TapSwap
     sample_ref: "https://t.me/tapswap_mirror_bot?start=r_209501633"
     type: tapswap
@@ -185,24 +161,6 @@ groups:
         - name: "Start Ref for Failed Profiles Only"
     open:
       link_field: "tapSwapLink"
-  - group_name: RockyRabbit
-    sample_ref: "https://t.me/rocky_rabbit_bot/play?startapp=frId209501633"
-    type: rocky
-    color_class: group-b
-    fields:
-      - field_name: rockyRabbitUserInfo.clicker.balance
-        display_name: Balance
-    actions:
-      mongo:
-        - name: "Start Missing"
-      gpm:
-        - name: "Start All"
-      wallet:
-        - name: "Connect Wallet"
-      failed_only:
-        - name: "Start Ref for Failed Profiles Only"
-    open:
-      link_field: "rockyRabbitLink"
   - group_name: Fish
     sample_ref: "https://t.me/fishmeme_bot/game?startapp=SANAKP"
     type: fish
