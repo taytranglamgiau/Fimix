@@ -48,6 +48,8 @@ groups:
         display_name: Boss HP
       - field_name: lastClaimMemeFi
         display_name: Last Claim
+      - field_name: memeFiWalletInfo.telegramMemefiWallet.walletAddress
+        display_name: walletAddress
     actions:
       mongo:
         - name: "Start Missing"
